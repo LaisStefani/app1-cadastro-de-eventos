@@ -1,0 +1,13 @@
+package com.eventoapp.contoller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class Indexcontroller {
+
+    @RequestMapping("/home")
+    public String index() {
+        return "index";
+    }
+}
